@@ -1,0 +1,12 @@
+[user]
+	name = Marvin
+	email = marvin.gruessinger.dev@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[push]
+	autoSetupRemote = true
+	default = simple
+[rerere]
+	enabled = true

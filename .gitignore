@@ -1,0 +1,25 @@
+# Ignore backup directories
+dotfiles_backup_*/
+
+# Ignore OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Ignore sensitive SSH keys (only track config)
+ssh/id_*
+ssh/*.pem
+ssh/known_hosts
+
+# Ignore local overrides
+*.local
+
+# Ignore environment files (may contain secrets)
+.env
+.env.*
+*.env
+
+# Ignore Claude settings (may contain API keys/personal info)
+.claude/
+.claude.json
